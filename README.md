@@ -108,7 +108,7 @@ echo "JPEG FILE 2" > 2.jpg
 ```
 Перезапустил сервисы 
 Запросы через curl:
-![""](https://github.com/radiomost/load-balansing/blob/main/img/25.png)
+![""](https://github.com/radiomost/load-balansing/blob/main/img/img25.png)
 
 Запросы через браузер (для картинок):
 
@@ -128,5 +128,10 @@ echo "JPEG FILE 2" > 2.jpg
 6. На проверку направьте конфигурационный файл HAProxy, скриншоты, демонстрирующие запросы к разным фронтендам и ответам от разных бэкендов.
 
 ## Решение
+Конфигурационный файл [haproxy_3.cfg](https://github.com/radiomost/load-balansing/blob/main/haproxy_3.cfg) 
+
+Результат выполнения редставлен на скриншоте:
+![curl-запросы](https://github.com/radiomost/load-balansing/blob/main/img/img28.png)
+
 
 ---
