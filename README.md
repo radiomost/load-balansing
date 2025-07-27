@@ -85,9 +85,41 @@
 
 ## Решение
 
+Что бы было удобно через curl просматривать результаты проксирования, я создал два текстовых файла и два файла с картинками
+
+```
+cd /var/www/html
+echo "JPEG FILE 1" > 1.jpg
+echo "JPEG FILE 2" > 2.jpg
+
+```
+3.jpg
+![""](https://github.com/radiomost/load-balansing/blob/main/img/3.jpg)
+4.jpg
+![""](https://github.com/radiomost/load-balansing/blob/main/img/4.jpg)
+
+Оставил настройку HAproxy без измененений, как в [Ссылка](https://github.com/radiomost/load-balansing/blob/main/haproxy_2.cfg) 
+Добавил настройку Nginx [Ссылка](https://github.com/radiomost/load-balansing/blob/main/nginx.conf)
+
+Прописал в `nano /etc/hosts` ссылку на имя
+
+```
+127.0.0.1 example.com
+```
+Перезапустил сервисы 
+Запросы через curl:
+![""](https://github.com/radiomost/load-balansing/blob/main/img/25.png)
+
+Запросы через браузер (для картинок):
+
+3.jpg
+![""](https://github.com/radiomost/load-balansing/blob/main/img/26.png)
+4.jpg
+![""](https://github.com/radiomost/load-balansing/blob/main/img/27.png)
+
 ---
 
-## адание 4*
+## Задание 4*
 1. Запустите 4 simple python сервера на разных портах.
 2. Первые два сервера будут выдавать страницу index.html вашего сайта example1.local (в файле index.html напишите example1.local)
 3. Вторые два сервера будут выдавать страницу index.html вашего сайта example2.local (в файле index.html напишите example2.local)
