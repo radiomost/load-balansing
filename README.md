@@ -98,8 +98,8 @@ echo "JPEG FILE 2" > 2.jpg
 4.jpg
 ![""](https://github.com/radiomost/load-balansing/blob/main/img/4.jpg)
 
-Оставил настройку HAproxy без измененений, как в [Ссылка](https://github.com/radiomost/load-balansing/blob/main/haproxy_2.cfg) 
-Добавил настройку Nginx [Ссылка](https://github.com/radiomost/load-balansing/blob/main/nginx.conf)
+Оставил настройку HAproxy без измененений, как в [haproxy_2.cfg](https://github.com/radiomost/load-balansing/blob/main/haproxy_2.cfg) 
+Добавил настройку Nginx [nginx.conf](https://github.com/radiomost/load-balansing/blob/main/nginx.conf)
 
 Прописал в `nano /etc/hosts` ссылку на имя
 
@@ -112,10 +112,10 @@ echo "JPEG FILE 2" > 2.jpg
 
 Запросы через браузер (для картинок):
 
-3.jpg
-![""](https://github.com/radiomost/load-balansing/blob/main/img/26.png)
-4.jpg
-![""](https://github.com/radiomost/load-balansing/blob/main/img/27.png)
+![3.jpg](https://github.com/radiomost/load-balansing/blob/main/img/26.png)
+
+
+![4.jpg](https://github.com/radiomost/load-balansing/blob/main/img/27.png)
 
 ---
 
