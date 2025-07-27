@@ -112,10 +112,10 @@ echo "JPEG FILE 2" > 2.jpg
 
 Запросы через браузер (для картинок):
 
-![3.jpg](https://github.com/radiomost/load-balansing/blob/main/img/26.png)
+![3.jpg](https://github.com/radiomost/load-balansing/blob/main/img/img26.png)
 
 
-![4.jpg](https://github.com/radiomost/load-balansing/blob/main/img/27.png)
+![4.jpg](https://github.com/radiomost/load-balansing/blob/main/img/img27.png)
 
 ---
 
